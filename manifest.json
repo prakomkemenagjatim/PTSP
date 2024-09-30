@@ -1,0 +1,37 @@
+{
+  "background_color": "#ffffff",
+  "description": "Santun Kemenag Ngawi",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Santun Kemenag Ngawi",
+  "orientation": "any",
+  "scope": "https://ptsp.kemenagngawi.or.id/",
+  "short_name": "Santun",
+  "start_url": "https://ptsp.kemenagngawi.or.id/",
+  "theme_color": "#4caf50",
+  "categories": [],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-1.png",
+      "sizes": "1280x800",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/screenshot-2.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://ptsp.kemenagngawi.or.id/assets/images/icon-89x89.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": []
+}

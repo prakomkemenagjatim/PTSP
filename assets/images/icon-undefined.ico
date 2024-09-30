@@ -1,0 +1,591 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="theme-color" content="#4caf50">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>SANTUN KEMENAG KAB NGAWI</title>
+  <link rel="stylesheet" href="https://ptsp.kemenagngawi.or.id/assets/css/theme.css">
+  <link rel="stylesheet" href="https://ptsp.kemenagngawi.or.id/assets/css/app.css">
+  <link rel="stylesheet" href="https://ptsp.kemenagngawi.or.id/assets/animate/animate.min.css">
+  <link rel="shortcut icon" href="https://ptsp.kemenagngawi.or.id/assets/images/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ptsp.kemenagngawi.or.id/assets/sweetalert/sweetalert2.min.css"/>
+  <link rel="stylesheet" href="https://ptsp.kemenagngawi.or.id/assets/node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://ptsp.kemenagngawi.or.id/assets/node_modules/bootstrap/dist/css/bootstrap-select.min.css">
+	<!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+  <style>
+  body{padding-top: 60px;}h1, h2, h3, h4, h5, h6{font-family: 'arial', sans-serif;color: #111;font-weight: 600;} .nav.nav-tabs li .active{color: #fff;background-color: #008877;}.nav.nav-tabs li a{color: #008877;}.form-control {border: 1px solid #d9d9d9 !important;color: #000;}.form-control:focus {border: 1px solid #008877 !important;color: #000;}.form-control.input-sm{ height: 30px; padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 3px;}.fa-fw{line-height: 1.4;}.btn.dropdown-toggle.btn-light{border: 0;font-size: 0.75rem;font-weight: normal; padding: 0; }#menu .dropdown-submenu{ position: relative}#menu .dropdown-submenu>.dropdown-menu{ top: 0; left: 100%; margin-top: -6px; margin-left: -1px; -webkit-border-radius: 0 6px 6px 6px; -moz-border-radius: 0 6px 6px; border-radius: 0 6px 6px 6px}#menu .dropdown-submenu:hover>.dropdown-menu{ display: block}#menu .dropdown-submenu>a:after{ display: block; content: " "; float: right; width: 0; height: 0; border-color: transparent; border-style: solid; border-width: 5px 0 5px 5px; border-left-color: #ccc; margin-top: 5px; margin-right: -10px}#menu .dropdown-submenu:hover>a:after{ border-left-color: #fff}#menu .dropdown-submenu.pull-left{ float: none}#menu .dropdown-submenu.pull-left>.dropdown-menu{ left: -100%; margin-left: 10px; -webkit-border-radius: 6px 0 6px 6px; -moz-border-radius: 6px 0 6px 6px; border-radius: 6px 0 6px 6px}#menu .dropdown-menu{padding: 10px;width: 200px;font-size: 14px;font-weight: normal}#menu .dropdown-menu li{padding: 5px;color: #004d40;border-bottom: 1px solid #d9d9d9}#menu .dropdown-menu li a{color: #004d40;text-decoration: none}#menu .dropdown-menu li a:hover{color: #f2da00;text-decoration: none}.bootstrap-select{color: #000}.bootstrap-select.show-tick .dropdown-menu li a.dropdown-item{font-size: 12px}.bootstrap-select.show-tick .dropdown-menu li a.dropdown-item:active{background-color: #004d40}.bootstrap-select>.dropdown-toggle{color: #000}.docs-logo-wrapper{top:0 !important}.card-menu{min-height: 228px !important;cursor:pointer;margin-bottom: 30px !important;box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);border: 0 !important}.card-menu-title{font-size: .8rem !important;margin-bottom: .4rem !important;font-weight: bold;color: #111 !important;opacity: .7}.card-menu-subtitle{font-size: .7rem !important;letter-spacing: .5px;opacity: .8}.card-menulayanan{min-height: 210px !important;cursor:pointer;margin-bottom: 30px !important;box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);border: 0 !important}.card-menulayanan-title{font-size: .8rem !important;margin-bottom: .4rem !important;font-weight: bold;color: #111 !important; letter-spacing: 0.5px; opacity: .7}.navbar .active .nav-link{ color: #4CAF50}.navbar .nav-link{ color: #81c784; font-weight: 500}.navbar .active .nav-link:hover{ color: #81c784}.navbar .nav-link:hover{ color: #4CAF50; font-weight: 500}.navbar-toggler span{ display: block; background-color: #4CAF50; height: 3px; width: 24px; margin-top: 5px; margin-bottom: 5px; transform: rotate(0deg); position: relative; left: 0; -webkit-opacity: 1; -moz-opacity: 1; opacity: 1; border-radius: 1px}.vison{opacity: 1; height: auto; transition: opacity 300ms ease-in;}.visoff{transition: opacity 1s ease-out; opacity: 0; height: 0; overflow: hidden;}.btnmenu{border: 2px solid #004d40; padding: 5px; border-radius: 5px; margin-left: 5px; font-size: 14px; width: 150px; text-align: center;}.dropdown-submenu{ position: relative}.dropdown-submenu>.dropdown-menu{ top: 0; left: 100%; margin-top: -6px; margin-left: -1px; -webkit-border-radius: 0 6px 6px 6px; -moz-border-radius: 0 6px 6px; border-radius: 0 6px 6px 6px}.dropdown-submenu:hover>.dropdown-menu{ display: block}.dropdown-submenu>a:after{ display: block; content: " "; float: right; width: 0; height: 0; border-color: transparent; border-style: solid; border-width: 5px 0 5px 5px; border-left-color: #ccc; margin-top: 5px; margin-right: -10px}.dropdown-submenu:hover>a:after{ border-left-color: #fff}.dropdown-submenu.pull-left{ float: none}.dropdown-submenu.pull-left>.dropdown-menu{ left: -100%; margin-left: 10px; -webkit-border-radius: 6px 0 6px 6px; -moz-border-radius: 6px 0 6px 6px; border-radius: 6px 0 6px 6px}.dropdown-menu{padding: 10px;width: 200px;font-size: 14px;font-weight: normal}.dropdown-menu li{padding: 5px;color: #004d40;border-bottom: 1px solid #d9d9d9}.dropdown-menu li a{color: #004d40;text-decoration: none}.dropdown-menu li a:hover{color: #f2da00;text-decoration: none}.logo-icon{width: 60%;padding: 2px 20px; border-radius: 0 0 20px 20px;}@media (max-width: 1200px){.site-logo{width: 90%;}.logo-icon{width: 100%;}}*:focus{ outline: none}.sunrise{background: #FF512F !important;background: -webkit-linear-gradient(to right, #F09819, #FF512F) !important; background: linear-gradient(to right, #F09819, #FF512F) !important;}.megatron{background: #C6FFDD !important; background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD) !important; background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD) !important;}.quepal{background: #11998e !important; background: -webkit-linear-gradient(to right, #29ce67, #11998e) !important; background: linear-gradient(to right, #29ce67, #11998e) !important;}.section-header h3{font-size: 32px;color: #111;text-transform: uppercase;text-align: center;font-weight: 700;position: relative;padding-bottom: 15px;}.section-header h3::before{content: '';position: absolute;display: block;width: 120px;height: 1px;background: #ddd;bottom: 1px;left: calc(50% - 60px);}.section-header h3::after{content: '';position: absolute;display: block;width: 40px;height: 3px;background: #18d26e;bottom: 0;left: calc(50% - 20px);}.section-header p{text-align: center;padding-bottom: 30px;color: #333;}#intro{display: table;width: 100%;height: 91vh;background: #000;}.carousel-inner{position: relative;width: 100%;height: 91vh;overflow: hidden;}#intro .carousel-item{ width: 100%; height: 91vh; background-size: cover; background-position: center; background-repeat: no-repeat}#intro .carousel-item::before{ content: ''; background-color: rgba(0, 0, 0, 0.7); position: absolute; height: 100%; width: 100%; top: 0; right: 0; left: 0; bottom: 0}#intro .carousel-container{ display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; position: absolute; bottom: 0; top: 0; left: 0; right: 0}#intro .carousel-background img{ width: 100%;height: 91vh;object-fit: cover}#intro .carousel-content{ text-align: center}#intro h2{ color: #fff; margin-bottom: 30px; font-size: 42px; font-weight: 700}#intro p{ width: 80%; margin: 0 auto 30px auto; color: #fff}#intro .carousel-fade{ overflow: hidden}#intro .carousel-fade .carousel-inner .carousel-item{ transition-property: opacity}#intro .carousel-fade .carousel-inner .carousel-item,#intro .carousel-fade .carousel-inner .active.carousel-item-left,#intro .carousel-fade .carousel-inner .active.carousel-item-right{ opacity: 0}#intro .carousel-fade .carousel-inner .active,#intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left,#intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right{ opacity: 1; transition: 0.5s}#intro .carousel-fade .carousel-inner .carousel-item-next,#intro .carousel-fade .carousel-inner .carousel-item-prev,#intro .carousel-fade .carousel-inner .active.carousel-item-left,#intro .carousel-fade .carousel-inner .active.carousel-item-right{ left: 0; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0)}#intro .carousel-control-prev,#intro .carousel-control-next{ width: 10%}#intro .carousel-control-next-icon,#intro .carousel-control-prev-icon{ font-size: 32px; line-height: 1}#intro .carousel-indicators li{ cursor: pointer}#intro .btn-get-started{ font-family: "Montserrat", sans-serif; font-weight: 500; font-size: 16px; letter-spacing: 1px; display: inline-block; padding: 8px 32px; border-radius: 50px; transition: 0.5s; margin: 10px; color: #fff; background: #18d26e}#intro .btn-get-started:hover{ background: #fff !important; color: #18d26e !important}.header:has(.navbar-collapse.show){height:unset}.checkbox{padding-left:20px}.checkbox label{display:inline-block;position:relative;padding-left:5px}.checkbox label::before{content:"";display:inline-block;position:absolute;width:20px;height:20px;left:0;margin-left:-20px;border:1px solid #ccc;border-radius:3px;background-color:#fff;-webkit-transition:border .15s ease-in-out,color .15s ease-in-out;-o-transition:border .15s ease-in-out,color .15s ease-in-out;transition:border .15s ease-in-out,color .15s ease-in-out}.checkbox label::after{display:inline-block;position:absolute;width:16px;height:16px;left:0;top:0;margin-left:-20px;padding-left:4px;padding-top:1px;font-size:13px;color:#555}.checkbox input[type=checkbox]{opacity:0}.checkbox input[type=checkbox]:focus+label::before{outline:thin dotted}.checkbox input[type=checkbox]:checked+label::after{font-family:fontawesome;content:"\f00c"}.checkbox input[type=checkbox]:disabled+label{opacity:.65}.checkbox input[type=checkbox]:disabled+label::before{background-color:#eee;cursor:not-allowed}.checkbox.checkbox-circle label::before{border-radius:50%}.checkbox.checkbox-inline{margin-top:0}.checkbox-primary input[type=checkbox]:checked+label::before{background-color:#428bca;border-color:#428bca}.checkbox-primary input[type=checkbox]:checked+label::after{color:#fff}.checkbox-danger input[type=checkbox]:checked+label::before{background-color:#d9534f;border-color:#d9534f}.checkbox-danger input[type=checkbox]:checked+label::after{color:#fff}.checkbox-info input[type=checkbox]:checked+label::before{background-color:#5bc0de;border-color:#5bc0de}.checkbox-info input[type=checkbox]:checked+label::after{color:#fff}.checkbox-warning input[type=checkbox]:checked+label::before{background-color:#f0ad4e;border-color:#f0ad4e}.checkbox-warning input[type=checkbox]:checked+label::after{color:#fff}.checkbox-success input[type=checkbox]:checked+label::before{background-color:#5cb85c;border-color:#5cb85c}.checkbox-success input[type=checkbox]:checked+label::after{color:#fff}.radio{padding-left:20px}.radio label{display:inline-block;position:relative;padding-left:5px}.radio label::before{content:"";display:inline-block;position:absolute;width:17px;height:17px;left:0;margin-left:-20px;border:1px solid #ccc;border-radius:50%;background-color:#fff;-webkit-transition:border .15s ease-in-out;-o-transition:border .15s ease-in-out;transition:border .15s ease-in-out}.radio label::after{display:inline-block;position:absolute;content:" ";width:11px;height:11px;left:3px;top:3px;margin-left:-20px;border-radius:50%;background-color:#555;-webkit-transform:scale(0,0);-ms-transform:scale(0,0);-o-transform:scale(0,0);transform:scale(0,0);-webkit-transition:-webkit-transform .1s cubic-bezier(.8,-.33,.2,1.33);-moz-transition:-moz-transform .1s cubic-bezier(.8,-.33,.2,1.33);-o-transition:-o-transform .1s cubic-bezier(.8,-.33,.2,1.33);transition:transform .1s cubic-bezier(.8,-.33,.2,1.33)}.radio input[type=radio]{opacity:0}.radio input[type=radio]:focus+label::before{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.radio input[type=radio]:checked+label::after{-webkit-transform:scale(1,1);-ms-transform:scale(1,1);-o-transform:scale(1,1);transform:scale(1,1)}.radio input[type=radio]:disabled+label{opacity:.65}.radio input[type=radio]:disabled+label::before{cursor:not-allowed}.radio.radio-inline{margin-top:0}.radio-primary input[type=radio]+label::after{background-color:#428bca}.radio-primary input[type=radio]:checked+label::before{border-color:#428bca}.radio-primary input[type=radio]:checked+label::after{background-color:#428bca}.radio-danger input[type=radio]+label::after{background-color:#d9534f}.radio-danger input[type=radio]:checked+label::before{border-color:#d9534f}.radio-danger input[type=radio]:checked+label::after{background-color:#d9534f}.radio-info input[type=radio]+label::after{background-color:#5bc0de}.radio-info input[type=radio]:checked+label::before{border-color:#5bc0de}.radio-info input[type=radio]:checked+label::after{background-color:#5bc0de}.radio-warning input[type=radio]+label::after{background-color:#f0ad4e}.radio-warning input[type=radio]:checked+label::before{border-color:#f0ad4e}.radio-warning input[type=radio]:checked+label::after{background-color:#f0ad4e}.radio-success input[type=radio]+label::after{background-color:#5cb85c}.radio-success input[type=radio]:checked+label::before{border-color:#5cb85c}.radio-success input[type=radio]:checked+label::after{background-color:#5cb85c} .containerrating{ position: relative; width: 100%; background: #111; padding: 10px 10px; border: 1px solid #444; border-radius: 5px; display: flex; align-items: center; justify-content: center; flex-direction: column}.containerrating .star-widget input{ display: none}.star-widget label{ font-size: 38px; color: #444; padding: 10px; float: right; transition: all 0.2s ease}input:not(:checked) ~ label:hover,input:not(:checked) ~ label:hover ~ label{ color: #fd4}input:checked ~ label{ color: #fd4}input#rate-5:checked ~ label,input#drate-5:checked ~ label{ color: #fe7; text-shadow: 0 0 20px #952}#rate-1:checked ~ form header:before,#drate-1:checked ~ form header:before{ content: "Sangat Tidak Puas 😡"}#rate-2:checked ~ form header:before,#drate-2:checked ~ form header:before{ content: "Tidak Puas 😠"}#rate-3:checked ~ form header:before,#drate-3:checked ~ form header:before{ content: "Cukup Puas 🙂"}#rate-4:checked ~ form header:before,#drate-4:checked ~ form header:before{ content: "Puas 😘"}#rate-5:checked ~ form header:before,#drate-5:checked ~ form header:before{ content: "Sangat Puas 😍"}input:checked ~ form{ display: block}.star-widget form header{ width: 100%; font-size: 25px; color: #fe7; font-weight: 500; margin: 5px 0 20px 0; text-align: center; transition: all 0.2s ease}.textarearating{ height: 150px; width: 100%; overflow: hidden}.textarearating textarea{ height: 100%; width: 100%; outline: none; color: #eee; border: 1px solid #333; background: #222; padding: 10px; font-size: 17px; resize: none}.textarearating textarea:focus{ border-color: #444}#frmdok ol > li,#frmdok ul > li {color: #adb4c0;font-size: 12.8px;font-weight: 400;}#frmdok ol li::marker,#frmdok ul > li::marker {color: #4CAF50;}
+  </style>
+</head><body class="">
+  <style>
+.bg-page{background-image: url('https://ptsp.kemenagngawi.or.id/assets/img/slide/2.jpg');background-size: cover}.color-overlay{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #b1dcbe; opacity: 0.8}.card-menu{ min-height: 150px !important}.navbar-expand-lg{ flex-flow: row nowrap; justify-content: center !important}.navbar-brand{ margin-right: 0 !important}.main-wrapper{ width: 100%; max-width: 900px; margin: 1em auto; text-align: center}.badge{ position: relative; margin: 1.5em 3em; width: 6em; height: 9.2em; border-radius: 10px; display: inline-block; top: 0; transition: all 0.2s ease; cursor: pointer}.badge:before, .badge:after{ position: absolute; width: inherit; height: inherit; border-radius: inherit; background: inherit; content: ""; top: 0; left: 0; right: 0; bottom: 0; margin: auto}.badge:before{ transform: rotate(60deg)}.badge:after{ transform: rotate(-60deg)}.badge:hover{ top: -4px}.badge .badge-container{display: flex;position: relative;width: 100%;height: 100%;justify-content: center;justify-items: center;cursor: pointer}.badge .circle{display: flex;justify-content: center;align-items: center; width: 80px; height: 80px; position: absolute; background: #fff; z-index: 10; border-radius: 50%}.badge .circle i.fa{ font-size: 2em; margin-top: 8px}.badge .circle img{width: 60%}.badge .font{ display: inline-block; margin-top: 1em}.badge .ribbon{display: flex;font-size: 10px;align-items: center;justify-content: center;letter-spacing: 1.1px; position: absolute; border-radius: 4px; padding: 5px 5px 4px; width: 120px; z-index: 11; color: #fff; bottom: 5px; height: 25px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27); text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); text-transform: uppercase; background: linear-gradient(to bottom right, #52a856 0%, #333 100%); cursor: pointer; font-family: Arial, Helvetica, sans-serif}.sunrise{ background: linear-gradient(to bottom right, #ffc107 0%, #f57c00 100%) !important; color: #f68401}.quepal{ background: linear-gradient(to bottom right, #4CAF50 0%, #1B5E20 100%) !important; color: #00944a}@media only screen and (max-width: 768px){ .badge{width: 4em;height: 6.2em;} .badge .circle{width: 60px; height: 60px;}.badge .ribbon {
+    letter-spacing: .9px;;width: 110px;}}.search-form .dropdown.bootstrap-select{padding: 6px 15px;}.search-form .dropdown.bootstrap-select .btn.dropdown-toggle{padding: 5px;background-color: transparent;border-radius: 30px;font-size: 14px;}.search-form .dropdown.bootstrap-select .btn.dropdown-toggle:focus{border: 0;}.dropdown-item.active, .dropdown-item:active{background-color: #009688;}.dropdown-menu{font-size: 12px;}.bootstrap-select .btn:focus{ outline: none !important;}.dropdown-header{color:#004d40;font-weight: 600;}.form-control{padding: .375rem .75rem;}
+</style>
+	<header algn="center" class="header fixed-top box-shadow-dark" style="height:70px;background-color: #4caf50;border-bottom:15px solid #1e672f">	    
+	<div class="branding">
+		<div class="container-fluid position-relative">
+		    
+		<nav class="navbar navbar-expand-lg pt-0" >
+				<div class="site-logo text-center"><a class="navbar-brand" href="https://ptsp.kemenagngawi.or.id/">
+				<img class="logo-icon " style="height:5rem;width:auto" src="https://ptsp.kemenagngawi.or.id/assets/images/santun.png" alt="PTSP KEMENAG KOTA MALANG"></a></div>    
+			</nav>
+			
+	</div>
+	
+</header>
+ 
+
+
+ 
+    <div id="layananptsp" class="page-header text-center position-relative box-shadow-dark bg-secondary bg-page">
+		<div class="color-overlay"></div>
+	    <!-- <div class="theme-bg-shapes-right"></div>
+	    <div class="theme-bg-shapes-left"></div> -->
+	    <div  class="container">
+		    
+		    <div class="d-block mx-auto " style="padding-top: 3rem;padding-bottom:3rem">
+			
+		        <div class="w-100">
+					<header class="section-header">
+					<h3 class="" style="color: #e17d02">Layanan SANTUN</h3>
+					<p style="color: #1e672f " class="position-relative ">Layanan SANTUN kementerian agama kabupaten Ngawi yang dapat diakses langsung oleh masyarakat secara mandiri.</p>
+					</header>
+					<div class="main-search-box d-block mx-auto" style="text-align: right">
+						<div class="main-search-box d-block mx-auto" style="text-align: right">
+							<form class="search-form w-100 text-left">
+								<select id="cariLayanan" class="selectpicker form-control search-input mb-4" title="Cari Layanan" data-live-search="true">
+										<optgroup label='SEKJEN'>	<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/sekjen/surat-masuk">SURAT MASUK</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/sekjen/permohonan-izin-magang">PERMOHONAN IZIN MAGANG</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/sekjen/permohonan-narasumber">PERMOHONAN NARASUMBER</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/sekjen/permohonan-audiensi">PERMOHONAN AUDIENSI</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/sekjen/permohonan-izin-penelitian">PERMOHONAN IZIN PENELITIAN</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/sekjen/permohonan-rohaniawan-non-islam">PERMOHONAN ROHANIAWAN NON ISLAM</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/sekjen/permohonan-informasi-data-keagamaan-data-statistik">PERMOHONAN INFORMASI DATA KEAGAMAAN/DATA STATISTIK</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/sekjen/layanan-kerukunan-umat-beragama">LAYANAN KERUKUNAN UMAT BERAGAMA</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/sekjen/rekomendasi-pendirian-tempat-ibadah">REKOMENDASI PENDIRIAN TEMPAT IBADAH</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/sekjen/rekomendasi-melanjutkan-sekolah-luar-negeri">PERMOHONAN REKOMENDASI MELANJUTKAN SEKOLAH/KULIAH KE LUAR NEGERI</option>
+										<optgroup label='BIMAS ISLAM'>	<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/bimas-islam/rekomendasi-pengajian">REKOMENDASI PENGAJIAN</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/bimas-islam/permohonan-bantuan-alquran">PERMOHONAN BANTUAN AL-QUR'AN DAN BUKU</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/bimas-islam/rekomendasi-tenaga-keagamaan-asing">REKOMENDASI TENAGA KEAGAMAAN ASING</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/bimas-islam/permohonan-penceramah">PERMOHONAN PENCERAMAH</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/bimas-islam/pendirian-tempat-ibadah">PENDIRIAN TEMPAT IBADAH</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/bimas-islam/pelayanan-permintaan-id-masjid-musholla">PELAYANAN PERMINTAAN ID MASJID / MUSHOLLAH</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/bimas-islam/pengukuran-arah-kiblat">PENGUKURAN ARAH KIBLAT</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/bimas-islam/jadwal-imsakiyah">JADWAL IMSAKIYAH RAMADHAN</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/bimas-islam/jadwal-sholat">JADWAL SHOLAT</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/bimas-islam/permohonan-rohaniawan">PERMOHONAN ROHANIAWAN</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/bimas-islam/konsultasi-penasehatan-keluarga">KONSULTASI / PENASEHATAN KELUARGA</option>
+											<option value="https://sijimat.ptspkotamalang.net">SISTEM JARINGAN INFORMASI MAJELIS TAKLIM (SIJIMAT)</option>
+											<option value="https://lego.ptspkotamalang.net/">LEGALISIR ONLINE BUKU NIKAH</option>
+											<option value="https://ptspmalangkota.kemenag.go.id/temanmu">DATA PERNIKAHAN</option>
+										<optgroup label='HAJI & UMRAH'>	<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/haji-umrah/pendaftaran-haji">PENDAFTARAN HAJI</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/haji-umrah/pembatalan-nomor-validasi-haji">PEMBATALAN NOMOR VALIDASI HAJI</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/haji-umrah/pembatalan-nomor-validasi-haji-karena-meninggal">PEMBATALAN NOMOR VALIDASI HAJI (karena MENINGGAL)</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/haji-umrah/pembatalan-pendaftaran-jemaah-haji-setoran-awal-bpih-reguler">PEMBATALAN PENDAFTARAN JEMAAH HAJI SETORAN AWAL BPIH REGULER</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/haji-umrah/pembatalan-pendaftaran-jemaah-haji-setoran-awal-bpih-reguler-alasan-meninggal">PEMBATALAN PENDAFTARAN JEMAAH HAJI SETORAN AWAL BPIH REGULER (alasan meninggal)</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/haji-umrah/pembatalan-pendaftaran-haji-setoran-lunas-bpih-reguler">PEMBATALAN PENDAFTARAN HAJI SETORAN LUNAS BPIH REGULER</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/haji-umrah/pembatalan-pendaftaran-haji-setoran-lunas-bpih-reguler-karena-meninggal">PEMBATALAN PENDAFTARAN HAJI SETORAN LUNAS BPIH REGULER (karena meninggal)</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/haji-umrah/rekomendasi-pembuatan-paspor-haji-reguler">REKOMENDASI PEMBUATAN PASPOR (HAJI REGULER)</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/haji-umrah/rekomendasi-pembuatan-paspor-haji-khusus">REKOMENDASI PEMBUATAN PASPOR (HAJI KHUSUS)</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/haji-umrah/rekomendasi-pembuatan-paspor-haji">REKOMENDASI PEMBUATAN PASPOR (HAJI)</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/haji-umrah/surat-rekomendasi-umroh">SURAT REKOMENDASI UMROH (SURUQ)</option>
+										<optgroup label='PENDMA'>	<option value="https://ptspmalangkota.kemenag.go.id/ditamanis">DATA MADRASAH SE-KOTA MALANG</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pendma/rekomendasi-penggunaan-dana-bos-bop">PERMOHONAN REKOMENDASI PENGGUNAAN DANA BOS/BOP DIATAS 30 %</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pendma/pengajuan-kepala-madrasah-baru">PENGAJUAN KEPALA MADRASAH BARU</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pendma/rekomendasi-mutasi-siswa-dalam-provinsi">PERMOHONAN REKOMENDASI MUTASI SISWA DALAM PROVINSI</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pendma/rekomendasi-penelitian-dimadrasah">REKOMENDASI PENELITIAN DI MADRASAH</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pendma/rekomendasi-lomba-di-madrasah">REKOMENDASI LOMBA DI MADRASAH</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pendma/rekomendasi-akreditasi">REKOMENDASI AKREDITASI</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pendma/surat-pengantar-kurikulum-ma">SURAT PENGANTAR KURIKULUM MA</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pendma/permohonan-rekomendasi-ppdb">PERMOHONAN REKOMENDASI PPDB</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pendma/pengesahan-edm-rkm-dan-rktm">PENGESAHAN EDM,RKM DAN RKTM</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pendma/permohonan-pengesahan-kurikulum-ma">PERMOHONAN PENGESAHAN KURIKULUM MA</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pendma/permohonan-rekomendasi-bantuan-sarana-prasarana">PENGAJUAN PERMOHONAN REKOMENDASI BANTUAN SARANA/PRASARANA</option>
+											<option value="http://sipmadu.mtsn1kotamalang.sch.id/">SISTEM PERPUSTAKAAN TERPADU</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pendma/pengajuan-tpp-bagi-guru-pengawas-pns">PENGAJUAN TPP BAGI GURU / PENGAWAS PNS</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pendma/selisih-tunjangan-kinerja-bagi-guru-pengawas-pns">SELISIH TUNJANGAN KINERJA BAGI GURU / PENGAWAS PNS</option>
+										<optgroup label='PAIS'>	<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pais/pencairan-tpp">PEMBERKASAN PENCAIRAN TPP</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pais/konsultasi-pais">KONSULTASI PENDIDIKAN AGAMA ISLAM</option>
+											<option value="https://ptspmalangkota.kemenag.go.id/ditamanis/index.php/page/guruagama">DATA GURU AGAMA</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pais/jaga-pais">PENJARINGAN DATA AWAL GURU PENDIDIKAN AGAMA ISLAM (JAGA PAIS)</option>
+										<optgroup label='PD PONTREN'>	<option value="https://ptspmalangkota.kemenag.go.id/ditamanis">DATA LEMBAGA KEAGAMAAN ISLAM</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pd-pontren/pendaftaran-madin">PENDAFTARAN MADIN (LEMBAGA DINIYAH TAKMILIYAH)</option>
+											<option value="https://ditpdpontren.kemenag.go.id/daftarkeberadaanpesantren/">PENDAFTARAN PONDOK PESANTREN</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pd-pontren/perpanjangan-kitas-santri">REKOMENDASI PERPANJANGAN KITAS SANTRI LUAR NEGERI</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pd-pontren/legalisir-ijazah">LEGALISIR IJAZAH/SKHUN</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pd-pontren/perpanjangan-ijin-operasional-madin">PERPANJANGAN IJIN OPERASIONAL MADIN (LEMBAGA DINIYAH TAKMILIYAH)</option>
+											<option value="https://ditpdpontren.kemenag.go.id/sipdar/">PENDAFTARAN & PEMBAHARUAN IJIN OPERASIONAL LPQ (LEMBAGA PENDIDIKAN AL QUR'AN)</option>
+										<optgroup label='ZAKAT WAKAF'>	<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/penyelenggara-zakat-wakaf/sertifikasi-produk-halal">SERTIFIKASI PRODUK HALAL</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/penyelenggara-zakat-wakaf/konsultasi-zakat-wakaf-produkhalal">KONSULTASI ZAKAT/WAKAF/PRODUK HALAL</option>
+											<option value="https://ptspmalangkota.kemenag.go.id/sijaka/index.php/page/laz">DATA LEMBAGA ZAKAT</option>
+											<option value="https://ptspmalangkota.kemenag.go.id/sijaka/studio/index.php/login">LAPORAN ONLINE LEMBAGA ZAKAT</option>
+											<option value="https://ptspmalangkota.kemenag.go.id/sijaka/index.php/page/wakaf">PETA SEBARAN WAKAF DI KOTA MALANG</option>
+										<optgroup label='LAYANAN KRISTEN'>	<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/layanan-kristen/konsultasi-pengawas">KONSULTASI PENGAWAS</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/layanan-kristen/pemberkasan_pencairan_tpg">PEMBERKASAN PENCAIRAN TPG</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/layanan-kristen/penjaringan_data_awal_guru_pendidikan_agama_kristen">PENJARINGAN DATA AWAL GURU PAK (PENDIDIKAN AGAMA KRISTEN)</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/layanan-kristen/data-guru-kristen">DATA GURU PAK (Pendidikan Agama Kristen)</option>
+										<optgroup label='LAYANAN BUDDHA'>	<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/layanan-buddha/konsultasi-penyuluh">KONSULTASI PENYULUH</option>
+										<optgroup label='LAYANAN KATOLIK'>	<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/layanan-katolik/konsultasi-pengawas">KONSULTASI PENGAWAS</option>
+											<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/layanan-katolik/data-guru-katolik">DATA GURU PAK (Pendidikan Agama Katolik)</option>
+										<optgroup label='UNIT PENGADAAN'>	<option value="https://ptsp.kemenagngawi.or.id/index.php/layanan/pengadaan/pengadaan">PENGADAAN</option>
+																		</select>
+							</form>
+						</div>
+					</div>
+					<div class="main-wrapper mt-0">
+													<div class="badge animated flipInY quepal" data-eks="1" data-link="https://malangkota.kemenag.go.id">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\news.png" alt="BERITA"></div>
+									<div class="ribbon">BERITA</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY sunrise" data-eks="0" data-link="https://ptsp.kemenagngawi.or.id/index.php/page/sekjen">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\subagtu.png" alt="SEKJEN"></div>
+									<div class="ribbon">SEKJEN</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY quepal" data-eks="0" data-link="https://ptsp.kemenagngawi.or.id/index.php/page/bimas-islam">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\bimasislam.png" alt="BIMAS ISLAM"></div>
+									<div class="ribbon">BIMAS ISLAM</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY sunrise" data-eks="0" data-link="https://ptsp.kemenagngawi.or.id/index.php/page/haji-umrah">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\hajiumrah.png" alt="HAJI & UMRAH"></div>
+									<div class="ribbon">HAJI & UMRAH</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY quepal" data-eks="0" data-link="https://ptsp.kemenagngawi.or.id/index.php/page/pendma">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\madrasah.png" alt="PENDMA"></div>
+									<div class="ribbon">PENDMA</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY sunrise" data-eks="0" data-link="https://ptsp.kemenagngawi.or.id/index.php/page/pais">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\pais.png" alt="PAIS"></div>
+									<div class="ribbon">PAIS</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY quepal" data-eks="0" data-link="https://ptsp.kemenagngawi.or.id/index.php/page/pd-pontren">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\pontren.png" alt="PD PONTREN"></div>
+									<div class="ribbon">PD PONTREN</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY sunrise" data-eks="0" data-link="https://ptsp.kemenagngawi.or.id/index.php/page/penyelenggara-zakat-wakaf">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\zakatwakaf.png" alt="ZAKAT WAKAF"></div>
+									<div class="ribbon">ZAKAT WAKAF</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY quepal" data-eks="0" data-link="https://ptsp.kemenagngawi.or.id/index.php/page/layanan-kristen">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\kristen.png" alt="LAYANAN KRISTEN"></div>
+									<div class="ribbon">LAYANAN KRISTEN</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY sunrise" data-eks="0" data-link="https://ptsp.kemenagngawi.or.id/index.php/page/layanan-buddha">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\buddha.png" alt="LAYANAN BUDDHA"></div>
+									<div class="ribbon">LAYANAN BUDDHA</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY quepal" data-eks="0" data-link="https://ptsp.kemenagngawi.or.id/index.php/page/layanan-katolik">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\katolik.png" alt="LAYANAN KATOLIK"></div>
+									<div class="ribbon">LAYANAN KATOLIK</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY sunrise" data-eks="1" data-link="https://malangkota.kemenag.go.id/home/pengaduan">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\pengaduan.png" alt="PENGADUAN"></div>
+									<div class="ribbon">PENGADUAN</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY sunrise" data-eks="0" data-link="https://ptsp.kemenagngawi.or.id/index.php/layanan/pengadaan">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\pengadaan.png" alt="UNIT PENGADAAN"></div>
+									<div class="ribbon">UNIT PENGADAAN</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY quepal" data-eks="0" data-link="https://ptsp.kemenagngawi.or.id/index.php/data/kembang-zio">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\kembang.png" alt="KEMBANG ZIO"></div>
+									<div class="ribbon">KEMBANG ZIO</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY sunrise" data-eks="0" data-link="https://ptsp.kemenagngawi.or.id/index.php/page/lacak-layanan">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\lacak.png" alt="LACAK LAYANAN"></div>
+									<div class="ribbon">LACAK LAYANAN</div>
+								</div>
+							</div>
+														<div class="badge animated flipInY quepal bukutamu" data-eks="1" data-link="#">
+								<div class="badge-container">
+									<div class="circle"> <img src="https://ptsp.kemenagngawi.or.id/assets\images\menu_icons\v3\bukutamu.png" alt="BUKU TAMU"></div>
+									<div class="ribbon">BUKU TAMU</div>
+								</div>
+							</div>
+												</div>
+             	</div>
+            </div>
+	    </div>
+    </div>                         
+  <script src="https://ptsp.kemenagngawi.or.id/assets/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="https://ptsp.kemenagngawi.or.id/assets/node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="https://ptsp.kemenagngawi.or.id/assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://ptsp.kemenagngawi.or.id/assets/node_modules/bootstrap/dist/js/bootstrap-select.min.js"></script>
+  <script type='text/javascript' src="https://ptsp.kemenagngawi.or.id/assets/js/datepicker.js"></script>  
+  <script src="https://ptsp.kemenagngawi.or.id/assets/js/off-canvas.js"></script>
+  <script src="https://ptsp.kemenagngawi.or.id/assets/js/misc.js"></script>
+  <script src="https://ptsp.kemenagngawi.or.id/assets/easyui/jquery.easyui.min.js"></script>
+  <script src="https://ptsp.kemenagngawi.or.id/assets/easyui/datagrid-export.js"></script>
+  <script type="text/javascript" src="https://ptsp.kemenagngawi.or.id/assets/sweetalert/sweetalert2.min.js"></script>
+  <script src="https://ptsp.kemenagngawi.or.id/assets/js/jquery.scrollTo.min.js"></script>  
+   <script type="text/javascript">
+    var csrfName = 'senyum_token',
+              csrfHash = '8301d351fa0c38a7e4f672081eeed091';
+   	$(document).ready(function(){
+	   	if($(".datepicker").length > 0){
+	        $(".datepicker").datepicker({format: 'dd-mm-yyyy',autoclose: true});
+	    }
+      $('.navbar-collapse').on('show.bs.collapse', function() {
+        $(".header").css("height", "unset");
+      });
+
+      $('.navbar-collapse').on('hidden.bs.collapse', function() {
+        $(".header").css("height", "60px");
+      });
+
+      $('.bukutamu').click(function(e){
+        e.preventDefault();
+        $('#mdbukutamu').modal({
+          keyboard: false,
+          backdrop:false
+        });
+      });
+      $('#mdbukutamu').on('shown.bs.modal', function (e) {
+        $('.bttxt').val('');
+      });
+      $('#mdbukutamu').on('hidden.bs.modal', function (e) {
+        $('.bttxt').val('');
+        $('body').removeAttr('style');
+      });
+      $('#mdrating').on('shown.bs.modal', function (e) {
+          $('#ikm_saran').val('');
+          $("input[type='radio'][name='rate']").prop("checked", false);
+      });
+      $('#mdrating').on('hidden.bs.modal', function (e) {
+        $('#ikm_saran').val('');
+        $("input[type='radio'][name='rate']").prop("checked", false);
+      });
+      $('.simpanrating').click(function(){
+          var rate0 = $("input[type='radio'][name='rate']:checked").val();
+          var ikm_saran = $('#ikm_saran').val();
+          if(rate0 == undefined){
+            swal("Peringatan", "Tingkat kepuasan layanan belum dipilih.", "warning");
+            return false;
+          }
+          $.post('https://ptsp.kemenagngawi.or.id/index.php/ajax/simpanrating',{[csrfName]: csrfHash,rate:rate0,ikm_saran:ikm_saran},function(result){
+            if (result.status == 1){
+                  $('#mdrating').modal('hide');
+                  
+                  swal({
+                    title: "Terima kasih atas waktu dan penilainnya 😍",
+                    text: "",
+                    type: "success",
+                    timer: 10000
+                    });
+                    var urlikm = 'https://ptsp.kemenagngawi.or.id/index.php/data/grafikikm';
+                    if (urlikm ==  window.location.href){
+                      setTimeout(function(){
+                        location.reload();
+                      },5000);
+                    } else {
+                      setTimeout(function(){
+                        window.open(urlikm, '_blank');
+                      },3000);
+                      
+                    }
+                } else {
+                  swal("Peringatan", "Gagal menyampaikan penilaian", "warning");
+                }
+          },'json')
+          .fail(function(response) {
+            swal("Peringatan", "Gagal menyampaikan penilaian", "warning");
+        });
+      });
+
+      $('#bt_layanan').change(function(){
+        $('#bt_layananlain').val('');
+          if ($(this).val() == '99') {
+             $('#glayananlain').fadeIn(500); 
+          } else {
+            $('#glayananlain').fadeOut(500); 
+          }
+      })
+
+      $('.simpanbukutamu').click(function(){
+          var bt_nama = $('#bt_nama').val();
+          var bt_alamat = $('#bt_alamat').val();
+          var bt_hp = $('#bt_hp').val();
+          var bt_email = $('#bt_email').val();
+          var bt_pesan = $('#bt_pesan').val();
+          var bt_layanan = $('#bt_layanan').val();
+          var bt_layananlain = $('#bt_layananlain').val();
+          if(bt_nama == ""){
+            swal("Peringatan", "Nama lengkap harus diisi.", "warning");
+            return false;
+          } else if(bt_alamat == ""){
+            swal("Peringatan", "Alamat lengkap harus diisi.", "warning");
+            return false;
+          } else if(bt_hp == ""){
+            swal("Peringatan", "Nomor HP/WA harus diisi.", "warning");
+            return false;
+          } else if(bt_layanan == "" || bt_layanan == "0"){
+            swal("Peringatan", "Layanan belum dipilih.", "warning");
+            return false;
+          } else if(bt_layanan == "99" && bt_layananlain == "" ){
+            swal("Peringatan", "Layanan lainnya harus diisi.", "warning");
+            return false;
+          }
+          $.post('https://ptsp.kemenagngawi.or.id/index.php/ajax/simpanbukutamu',{
+            [csrfName]: csrfHash,
+            bt_nama:bt_nama,
+            bt_alamat:bt_alamat,
+            bt_hp:bt_hp,
+            bt_email:bt_email,
+            bt_pesan:bt_pesan,
+            bt_layanan:bt_layanan,
+            bt_layananlain:bt_layananlain
+          },function(result){
+            if (result.status == 1){
+                  
+                  swal({
+                    title: "Terima kasih atas kunjungannya 😍",
+                    text: "",
+                    type: "success",
+                    timer: 10000
+                    }).then(function(value) {
+                      if(value === true) {
+                        $('#mdbukutamu').modal('hide');
+                      }
+                    });
+                } else {
+                  swal("Peringatan", "Gagal menyimpan buku tamu.", "warning");
+                }
+          },'json')
+          .fail(function(response) {
+            swal("Peringatan", "Gagal menyimpan buku tamu.", "warning");
+        });
+      });
+     });
+      
+    function exportexcel(dg,jdl){
+      dg.datagrid('toExcel',{
+          filename: jdl+'.xls',
+          worksheet: jdl
+      }); 
+    }
+    function printgrid(dg,jdl){
+      dg.datagrid('print',jdl); 
+    }
+
+   </script>             <script>
+	var isMobile = Math.min(window.screen.width, window.screen.height) < 768 || navigator.userAgent.indexOf("Mobi") > -1;
+
+
+	$(function() {
+		$('.nav-link').click(function(e){
+			var href = $(this).attr('href');
+			var res = href.substring(0,1);
+			if (res == '#' || res == '.'){
+				e.preventDefault();
+				$('html, body').animate({
+					scrollTop: $(href).offset().top-60
+				}, 2000);
+				$('.badge').removeClass('animated flipInY');
+				setTimeout(function(){
+					$('.badge').addClass('animated flipInY');
+				},500);
+				
+			}
+		})
+		$('.badge').click(function(){
+			var href = $(this).data('link');
+			if (href == '#'){
+				return false;
+			}
+			if ($(this).data('eks') == 1){
+				window.open(href, '_blank');
+			} else {
+				window.open(href, '_self');
+			}
+			
+		})
+		$('#cariLayanan').on('changed.bs.select', function (e, clickedIndex, isSelected, previousValue) {
+			setTimeout(function(){window.open(e.target.value, '_blank');},1000);
+			
+		});
+
+	});
+</script>
+
+
+
+
+
+
+  <footer class="footer" style="background-color: #4caf50">
+
+	    <div class="footer-bottom text-center pt-3 pb-3">
+        
+        <div class="row justify-content-center pb-2 m-0" >
+            <img class="logo-footer float-left" src="https://ptsp.kemenagngawi.or.id/assets/images/logo-kemenag.png" alt="kemenag" style="width: 55px;
+padding-right: 10px;margin-right: 15px;border-right: 2px solid rgb(129, 199, 132);;" >
+            <small class="copyright white-text float-left text-left">Kantor Kementerian Agama Kabupaten Ngawi<br /> Jl. Kartini No.15 Ngawi, Jawa Timur</small>
+        </div>
+        <small class="copyright green-text" >©2022 Sistem Anjungan Mandiri Terintegrasi (SANTU). </small>
+	    </div>
+        <!-- <button class='btn btn-success bg-secondary fixed-bottom mb-3 mr-2' style="left: unset;" data-target='#mdrating' data-toggle='modal' data-backdrop="static" data-keyboard="false" type='button'>  
+            <i class="fa fa-star fa-fw text-warning" aria-hidden="true"></i> Beri Rating!! <i class="fa fa-thumbs-up fa-fw" aria-hidden="true"></i>
+          </button> -->
+    </footer>
+
+    <div aria-hidden='true' aria-labelledby='mdratingLabel' class='modal fade white-text' id='mdrating' role='dialog' tabindex='-1' style="z-index:3000">
+  <div class='modal-dialog modal-dialog-centered rads box-shadow' role='document' >
+    <div class='modal-content  bg-dark' style="border-width: 6px 0 0 0;border-color: #28a745;">
+      <div class='modal-header bord-dot-b bg-secondary  text-center'>
+        <h5 class='modal-title w-100 white-text' id='mdratingLabel'><strong><i class="fa fa-star fa-fw text-warning" aria-hidden="true"></i> Beri Rating!! <i class="fa fa-thumbs-up fa-fw" aria-hidden="true"></i></strong></h5>
+        <button aria-label='Close' class='close' data-dismiss='modal' type='button'>
+          <span aria-hidden='true'/>
+        </button>
+      </div>
+      <div class='modal-body'>
+        <div class="containerrating ">
+          <div class="star-widget">
+            <input type="radio" name="rate" id="rate-5" value="5">
+            <label for="rate-5" class="fa fa-star"></label>
+            <input type="radio" name="rate" id="rate-4" value="4">
+            <label for="rate-4" class="fa fa-star"></label>
+            <input type="radio" name="rate" id="rate-3" value="3">
+            <label for="rate-3" class="fa fa-star"></label>
+            <input type="radio" name="rate" id="rate-2" value="2">
+            <label for="rate-2" class="fa fa-star"></label>
+            <input type="radio" name="rate" id="rate-1" value="1">
+            <label for="rate-1" class="fa fa-star"></label>
+            <form action="#">
+              <header></header>
+              
+            </form>
+          </div>
+          <div class="textarea textarearating">
+                <textarea id="ikm_saran" class="form-control" cols="50" placeholder="Sampaikan apresiasi, saran, atau kritik yang membangun.."></textarea>
+              </div>
+          <div> <label id="cekrating-error" class="error" for="cekrating" style="display: none;">Penilaian belum dilakukan, silakan beri kami bintang.</label></div>
+        </div>
+      </div>
+      <div class='modal-footer bord-dot-t bg-secondary'>
+        <a href="https://ptsp.kemenagngawi.or.id/index.php/data/grafikikm" target="_blank" class='btn btn-warning ' type='button'>Grafik IKM</a>
+        <button class='btn btn-success simpanrating' type='button'>Kirim</button>
+        <button class='btn btn-secondary' data-dismiss='modal' type='button'>Tutup</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div aria-hidden='true' aria-labelledby='mdbukutamuLabel' class='modal fade text-white' id='mdbukutamu' role='dialog' tabindex='-1'>
+  <div class='modal-dialog bg-dark rads box-shadow  modal-lg' role='document' >
+    <div class='modal-content  bg-dark' style="border-width: 6px 0 0 0;border-color: rgb(129, 199, 132);;">
+      <div class='modal-header bord-dot-b bg-secondary'>
+        <h5 class='modal-title text-warning' id='mdbukutamuLabel'><strong><i class="fa fa-book fa-fw" aria-hidden="true"></i> Buku Tamu</strong></h5>
+        <button aria-label='Close' class='close' data-dismiss='modal' type='button'>
+          <i data-dismiss='modal' class="fa fa-times fa-fw text-white" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class='modal-body'>
+
+              <div class="form-group">
+                <label>Nama Lengkap <sup class="text-danger">*</sup></label>
+                <input type="text" class="form-control bttxt" id="bt_nama"  name="bt_nama" placeholder="Masukkan nama lengkap">
+              </div>
+              <div class="form-group">
+                <label>Alamat Lengkap <sup class="text-danger">*</sup></label>
+                <input type="text" class="form-control bttxt" id="bt_alamat" name="bt_alamat" aria-describedby="bt_alamatHelp" placeholder="Masukkan alamat lengkap">
+                <small id="bt_alamatHelp" class="form-text text-muted">Contoh : Jl. Raden Panji Suroso No.2, Polowijen, Kec. Blimbing.</small>
+              </div>
+              <div class="form-group">
+                <label>No.HP/No.WA <sup class="text-danger">*</sup></label>
+                <input type="text" class="form-control bttxt" id="bt_hp" name="bt_hp" aria-describedby="bt_hpHelp" placeholder="Masukkan nomor HP/nomor whatsapp">
+                <small id="bt_hpHelp" class="form-text text-muted">Masukkan nomor handphone atau nomor whatsapp.</small>
+              </div>
+              <div class="form-group">
+                <label>Email address</label>
+                <input type="email" class="form-control bttxt" id="bt_email" name="bt_email" aria-describedby="bt_emailHelp" placeholder="Masukkan nama email">
+                <small id="bt_emailHelp" class="form-text text-muted">Masukkan nama email .</small>
+              </div>
+							<div class="form-group">
+								<label for="bt_layanan" class="control-label">Layanan yang diterima <sup class="text-danger">*</sup></label>
+								<select id="bt_layanan" name="bt_layanan" class="form-control select2 bttxt" required style="padding: .375rem .75rem;">
+									<option value="">- Pilih layanan diterima -</option>	
+                  <option value='1'>Pendidikan</option>
+<option value='2'>Haji Umroh</option>
+<option value='3'>Agama</option>
+<option value='4'>Umum</option>
+<option value='5'>Layanan KUA</option>
+<option value='99'>Lainnya</option>
+		
+								</select>
+							</div>
+              <div class="form-group" id="glayananlain" style="display: none;">
+                <label>Layanan Lainnya <sup class="text-danger">*</sup></label>
+                <input type="text" class="form-control bttxt" id="bt_layananlain" name="bt_layananlain" aria-describedby="bt_layananlainHelp" placeholder="Masukkan layanan lainnya">
+                <small id="bt_layananlainHelp" class="form-text text-muted">Masukkan layanan lainnya.</small>
+              </div>
+              <div class="form-group mohoncatat">
+                  <label>Pesan</label>
+                  <textarea type="text" class="form-control bttxt" id="bt_pesan"  name="bt_pesan" placeholder="Masukkan Pesan"></textarea>
+              </div>
+              <div class="form-group mt-5">
+                 <small class="form-text text-muted"><sup class="text-danger">*</sup> Wajib diisi.</small>
+              </div>
+
+      </div>
+      <div class='modal-footer bord-dot-t bg-secondary'>
+         
+        <button class='btn btn-secondary' data-dismiss='modal' type='button'>Tutup</button>
+        <button class='btn btn-success simpanbukutamu' type='button'>Kirim</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div aria-hidden='true' aria-labelledby='mdmaklumatLabel' class='modal fade text-white' id='mdmaklumat' role='dialog' tabindex='-1'>
+  <div class='modal-dialog bg-dark rads box-shadow  modal-lg' role='document' >
+    <div class='modal-content  bg-dark' style="border-width: 6px 0 0 0;border-color: rgb(129, 199, 132);;">
+      <div class='modal-header bord-dot-b bg-secondary'>
+        <h5 class='modal-title text-warning' id='mdmaklumatLabel'><strong><i class="fa fa-book fa-fw" aria-hidden="true"></i> Maklumat</strong></h5>
+        <button aria-label='Close' class='close' data-dismiss='modal' type='button'>
+          <i data-dismiss='modal' class="fa fa-times fa-fw text-white" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class='modal-body'>
+        <img src="https://ptsp.kemenagngawi.or.id/assets\images\maklumat.png" class="card-img-top white" alt="Maklumat PTSP">
+      </div>
+      <div class='modal-footer bord-dot-t bg-secondary'>
+         
+        <button class='btn btn-secondary' data-dismiss='modal' type='button'>Tutup</button>
+      </div>
+    </div>
+  </div>
+</div> 
+</body>
+
+</html>
