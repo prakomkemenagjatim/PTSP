@@ -1,12 +1,12 @@
 
-# Santun Kemenag Ngawi
+# Santun Kemenag Jatim
 
-(Sistem Anjungan Terintegrasi Untuk Ngawi) Kantor Kementerian Agama Kabupaten Ngawi
+(Sistem Anjungan Terintegrasi) Kantor Wilayah Kementerian Agama Propinsi Jatim
 
 
 ## Authors
 
-- MAHFUD DUWI SAPUTRO [@mahfudds](https://www.github.com/mahfudds)
+- TIM PRAKOM JATIM
 
 
 ## License
